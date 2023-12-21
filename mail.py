@@ -4,7 +4,7 @@ import os
 
 MY_EMAIL = "mdsiddiquerain@gmail.com"
 TO_EMAIL = "siddiquemd4034@gmail.com"
-PASSWORD = os.environ['PASSWORD'] //You have to provide your app password here
+PASSWORD = os.environ['PASSWORD'] #You have to provide your app password here
 
 class SendMail:
    def __init__ (self, product_price, product_link, product_title):

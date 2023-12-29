@@ -22,6 +22,6 @@ alert_price = 420.0
 
 
 if price <= alert_price:
-  message = SendMail(product_price=price, product_link=URL, product_title=title)
-  print("Message sent successfully")
+   message = SendMail(product_price=price, product_link=URL, product_title=title)
+   print("Message sent successfully")
   
